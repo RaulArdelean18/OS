@@ -1,0 +1,5 @@
+::::-:////://
+:::::////://
+
+#cat passwd.fake | awk '{gsub(/[[:alnum:] ]/,""); if ($0!="") print}' | sort -u > ans/ans9.txt
+# [:alnum:] all numerics and alphanumeric, daca nu setez string in gsub, ia automat $0, la fel si la print

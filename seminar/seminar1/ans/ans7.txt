@@ -1,0 +1,5 @@
+toir1583
+tmir1388
+toie1637
+
+# cat last.fake | awk '$2=="pts/9" && $1 ~ /^t/ {print $1}'

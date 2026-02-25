@@ -1,0 +1,10 @@
+Malinescu Amalia-Greta
+Malinescu Bianca-Liliana
+Malinescu Diana-Flavia
+Malinescu Elena-Ioana
+Martinescu Bogdan
+Martinescu Laurentiu
+
+# cat passwd.fake | awk -F: '$1 ~ /^m/ && ($3%7==0) {print $5}' | sort -u > ans3.txt
+# -F: specific ca ii separare cu ':'
+# 

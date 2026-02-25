@@ -1,0 +1,10 @@
+?
+pts/2
+tty1
+tty2
+tty3
+tty4
+tty5
+tty6
+
+# cat ps.fake | awk '$1=="root" {print $6}' | sort -u > ans4.txt

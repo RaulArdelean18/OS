@@ -1,0 +1,14 @@
+# build / binaries
+build/
+bin/
+*.o
+*.out
+*.exe
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# secrets
+.env

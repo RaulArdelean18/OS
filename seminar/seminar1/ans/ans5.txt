@@ -1,0 +1,4 @@
+Lobodescu Amalia-Monica
+Leopardescu Dan
+
+# cat passwd.fake | awk -F: '$1 ~ /88$/ {print $5}' > ans5.txt

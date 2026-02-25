@@ -1,0 +1,7 @@
+piir1546
+srir1568
+tnir1590
+vlir1593
+
+# cat last.fake | awk '$7 ~ /^23:/ {print $1}' | sort -u > ans2.txt
+# $7 ~ /^23: = inceput de linie la coloana 7 cu [23:], print $1 daca este corect si dau concat in ans2.txt

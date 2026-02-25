@@ -1,0 +1,13 @@
+boir1417
+giie1411
+piir1546
+vlir1593
+
+# Comanda folosita:
+# cat last.fake | awk '$3 ~ /economica/ && $4=="Sun" {print $1}' | sort -u > ans1.txt
+# concatenam raspunsul din last.fake:
+#	awk : trecem prin fiecare linie
+#	$3 ~ /economica/ : caut in a 3-a coloana tot ce incepe cu economica
+#	$4=="Sun" : verific daca a 4-a coloana este Sun
+#	{print $1} : afisez user ul daca respect ultima si penultima linie de mai sus
+# 	| sort -u -> sortez fara duplicate (unique() din c++)

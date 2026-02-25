@@ -1,0 +1,7 @@
+Malinescu Elena-Greta
+Malinescu Elena-Ioana
+Malinescu Elena-Liliana
+Malinescu Elena-Monica
+
+# cat passwd.fake | awk -F: 'length($3)==3 && $3 ~ /^23/ {print $5}'
+# verific daca lenght($3) ii 3 si daca incepe $3 cu 23

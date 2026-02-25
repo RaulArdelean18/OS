@@ -1,0 +1,8 @@
+raarees
+roooot
+rpc
+rpcuuseer
+rtkiit
+
+#cat ps.fake | awk 'NR>1 && $1 ~ /^r/ {u=$1; gsub(/[aeiou]/,"&&",u); print u}' ps.fake | sort -u > ans/ans8.txt
+# gsub(regex,replacement,string)
